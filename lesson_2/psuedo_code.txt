@@ -1,0 +1,25 @@
+1. a method that returns the sum of two integers
+
+START
+print "Input # 1"
+GET input1
+print "Input #2"
+GET input2
+
+print input1 + input2
+END
+
+2. a method that takes an array of strings, and returns a string that is all those strings concatenated together
+
+START
+- Iterate through the array
+- for each variable in array, print variable and concatenate string.
+END
+(Then tested in irb):
+arr = ["this", "is", "a", "test"]
+arr.each { |x| print "#{x} " }                                                                                
+this is a test  => ["this", "is", "a", "test"] 
+
+3. a method that takes an array of integers, and returns a new array with every other element
+
+I don't understand the instruction. What other elements?
