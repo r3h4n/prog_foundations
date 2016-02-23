@@ -1,4 +1,3 @@
-
 def fib(first_num, second_num)
   limit = 15
   while second_num < limit
